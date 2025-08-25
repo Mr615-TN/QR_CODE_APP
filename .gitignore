@@ -1,0 +1,60 @@
+ This file is used to ignore files that should not be committed to a git repository.
+# It includes common files for Node.js, React Native, and Expo projects.
+
+# Dependency and build folders
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+
+# Expo-specific files
+.expo/
+web-build/
+.expo-shared/
+
+# Android build and temporary files
+android/build/
+android/.gradle/
+android/app/build/
+android/app/.cxx/
+android/app/src/debug/
+android/.idea/
+*.keystore
+
+# iOS build and temporary files
+ios/build/
+ios/Pods/
+
+# React Native temporary files
+# Metro bundler cache and packager-related files
+.react-native/
+.xcode.env
+.packager/
+
+# Cache directories
+.cache/
+.eslintcache
+.jest-cache/
+.jest_cache/
+.jest_metadata/
+.yarn/
+.npm-cache/
+
+# VS Code and IDE-specific files
+.vscode/
+.idea/
+
+# Operating System-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+# It's crucial to ignore these to prevent sensitive data from being committed.
+.env
+.env.*
+*.env
+
+# Other generated files
+*.log
+*.map

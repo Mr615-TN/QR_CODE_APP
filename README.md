@@ -53,10 +53,9 @@ qr-inventory-app/
 
 2. **Clone and setup**:
    ```bash
-   mkdir qr-inventory-app
-   cd qr-inventory-app
+   git clone https://github.com/Mr615-TN/QR_CODE_APP.git
+   cd QR_CODE_APP
    
-   # Copy all the provided files into appropriate directories
    # Install dependencies
    npm install
    ```
